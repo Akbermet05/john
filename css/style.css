@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Heebo, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h3 {
+  color: #000;
+}
+.container {
+  max-width: 1290px;
+  width: 100%;
+  margin-inline: auto;
+}
+#header {
+  padding-block: 40px;
+}
+nav {
+  display: flex;
+  justify-content: end;
+  gap: 18px;
+}
+nav a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+#main {
+  padding-block: 60px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 30px;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.main-text h1 {
+  width: 460px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.main-text {
+  display: flex;
+  gap: 30px;
+}
+.main-text p {
+  width: 490px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(33, 36, 61, 1);
+}
+
+.main-text button {
+  width: 210px;
+  height: 45px;
+  border-radius: 2px;
+  background-color: rgba(255, 100, 100, 1);
+  font-size: 15px;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+}
+.main img {
+  padding-right: 20px;
+}
+
+#work {
+  padding-bottom: 80px;
+  background-color: rgba(237, 247, 250, 1);
+}
+.work {
+  display: flex;
+  flex-direction: column;
+}
+.work-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 40px;
+}
+
+.box {
+  background-color: #fff;
+  padding: 20px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.work-start {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box h1 {
+  width: 370px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.box p {
+  width: 320px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+#dashboard {
+  padding-block: 60px;
+}
+.dashboard h1 {
+  font-weight: 400;
+  font-size: 17px;
+  padding: 10px 10px;
+}
+.block {
+  display: flex;
+  gap: 40px;
+}
+.block-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.block-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.text {
+  display: flex;
+  gap: 10px;
+}
+
+.text h6 {
+  background: rgba(20, 40, 80, 1);
+  width: 70px;
+  border-radius: 38%;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.text h5 {
+  color: rgba(134, 149, 164, 1);
+  font-size: 16px;
+  font-weight: 300;
+}
+.block-text p {
+  width: 630px;
+  color: rgba(33, 36, 61, 1);
+}
+
+.block {
+  padding: 20px 10px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-img {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}

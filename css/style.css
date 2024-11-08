@@ -12,11 +12,17 @@ h3,
 h3 {
   color: #000;
 }
-.container {
-  max-width: 1290px;
+#header.container {
   width: 100%;
+  max-width: 1380px;
   margin-inline: auto;
-  padding-inline: 20px;
+  padding-inline: 50px;
+}
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-inline: auto;
+  padding-inline: 50px;
 }
 #header {
   padding-block: 40px;
@@ -40,7 +46,9 @@ nav a {
   align-items: center;
   gap: 30px;
 }
-
+.burger-menu {
+  display: none;
+}
 .main-text {
   display: flex;
   flex-direction: column;
@@ -50,8 +58,8 @@ nav a {
 }
 .main-text h1 {
   width: 460px;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: clamp(1.5rem, 1.387rem + 0.57vw, 1.875rem);
+  font-weight: 700;
 }
 .main-text {
   display: flex;
@@ -59,26 +67,24 @@ nav a {
 }
 .main-text p {
   width: 490px;
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
   font-weight: 500;
   color: rgba(33, 36, 61, 1);
 }
 
 .main-text button {
-  width: 210px;
-  height: 45px;
+  padding: 8px 25px;
   border-radius: 2px;
   background-color: rgba(255, 100, 100, 1);
-  font-size: 15px;
+  font-size: 16px;
   color: #fff;
   border: none;
-  font-weight: 500;
 }
 
 .main img {
-  /* padding-right: 20px; */
+  max-width: ;
 }
-/* 
+
 #work {
   padding-bottom: 80px;
   background-color: rgba(237, 247, 250, 1);
@@ -110,13 +116,13 @@ nav a {
 
 .box h1 {
   width: 370px;
-  font-size: 26px;
+  font-size: clamp(1rem, 0.811rem + 0.94vw, 1.625rem);
   font-weight: 600;
 }
 
 .box p {
   width: 320px;
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
   font-weight: 500;
   line-height: 23px;
 }
@@ -126,7 +132,7 @@ nav a {
 }
 .dashboard h1 {
   font-weight: 400;
-  font-size: 17px;
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
   padding: 10px 10px;
 }
 .block {
@@ -141,7 +147,7 @@ nav a {
 }
 
 .block-text h1 {
-  font-size: 30px;
+  font-size: clamp(1.25rem, 1.061rem + 0.94vw, 1.875rem);
   font-weight: 700;
 }
 .text {
@@ -155,17 +161,18 @@ nav a {
   border-radius: 38%;
   color: #fff;
   text-align: center;
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
   font-weight: 600;
 }
 .text h5 {
   color: rgba(134, 149, 164, 1);
-  font-size: 16px;
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
   font-weight: 300;
 }
 .block-text p {
   width: 630px;
   color: rgba(33, 36, 61, 1);
+  font-size: clamp(0.75rem, 0.675rem + 0.38vw, 1rem);
 }
 
 .block {
@@ -180,4 +187,4 @@ nav a {
   display: flex;
   gap: 30px;
   padding-bottom: 20px;
-} */
+}
